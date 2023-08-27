@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(to right, #635EE2, #A8DBFA, #A8DBFA, #635EE2); */
+    background: grey;
+
+    .container {
+        display: grid;
+        padding-top: 15px;
+        font-family: 'Ubuntu', sans-serif;
+        margin: auto;
+        width: 50%;
+        height: 350px;
+        width: 450px;
+        border: 1px solid;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid #635EE2; */
+        border: 2px solid azure;
+        border-radius: 30px;
+        background: rgba(255, 255, 255, 0.2);
+        /* Transparent white background */
+        backdrop-filter: blur(10px);
+        /* Apply the frosted glass effect */
+        box-shadow: 0 8px 6px rgba(0.5, 0.5, 0.5, 0.5);
+        /* Shadow for the glassy look */
+    }
+
+    .main-heading {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 55px;
+        padding: 0%;
+        margin: 0%;
+        margin-bottom: 15px;
+        text-align: center;
+        font-weight: 400;
+        text-overflow: inherit;
+        color: #41414d;
+    }
+
+    .inner-heading {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 15px;
+        padding: 0%;
+        margin: 0%;
+        text-align: center;
+        font-weight: 400;
+        text-overflow: inherit;
+        text-decoration: underline;
+    }
+}
+
+.inner-set {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    gap: 15px;
+
+
+    .buttons-set {
+        background: pink;
+        margin-left: 15px;
+        margin-right: 15px;
+        height: 50px;
+        width: 100px;
+        border-radius: 30px;
+        text-align: center;
+        font-size: 23px;
+        justify-content: center;
+    }
+}
+
+
+
+#try-again {
+    font-size: larger;
+    font-weight: 700;
+    background: yellowgreen;
+    margin: auto;
+    position: relative;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+#result {
+    background: wheat;
+    height: 100px;
+    width: 280px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+/* 
+#rock{
+    align-items: start;
+}
+#paper{
+    align-self: right;
+} */
